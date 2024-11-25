@@ -4,11 +4,11 @@
 }
 
 @font-face {
-    font-family: Hack ;
+    font-family: Hack;
     src: url("fonts/Hack-Bold.ttf");
 }
 
-.digital-clock{
+.digital-clock {
     background-color: #000;
     color: #fff;
     display: flex;
@@ -18,34 +18,35 @@
     border: 0.5rem solid #2d2d2d;
 }
 
-.week{
+.week {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 3rem;
     color: #2d2d2d;
     font-family: "Hack";
 }
 
-.week .active{
+.week .active {
     color: white;
 }
 
-.time{
+.time {
     font-family: "FX_LED";
 }
 
 .hour,
 .min,
-.dot{
+.dot {
     display: inline-block;
     font-size: 13rem;
 }
 
-.min{
-    display: math;
+.min {
+    display: inline-block; /* Corregido */
 }
-.invisible{
+
+.invisible {
     visibility: hidden;
 }
