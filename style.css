@@ -1,12 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño de fuentes */
+
 @font-face {
     font-family: FX_LED;
     src: url("assets/digital-7-font/Digital7-rg1mL.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: Hack;
-    src: url("fonts/Hack-Bold.ttf");
-}
 
 .digital-clock {
     background-color: #000;
@@ -25,7 +30,7 @@
     align-items: center;
     width: 3rem;
     color: #2d2d2d;
-    font-family: "Hack";
+    font-family: "Roboto Condensed";
 }
 
 .week .active {
@@ -55,6 +60,8 @@
     background-color: white;
     color: blue;
 }
+
+/* comando para que los segundos titilen */
 
 @keyframes dot{
     0% {opacity: 1;}
