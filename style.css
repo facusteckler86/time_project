@@ -1,6 +1,6 @@
 @font-face {
     font-family: FX_LED;
-    src: url("fonts/FX_LED.TTF");
+    src: url("assets/digital-7-font/Digital7-rg1mL.ttf");
 }
 
 @font-face {
@@ -49,4 +49,18 @@
 
 .invisible {
     visibility: hidden;
+}
+
+.dot:hover{
+    background-color: white;
+    color: blue;
+}
+
+@keyframes dot{
+    0% {opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.dot{
+    animation: dot 1s infinite;
 }
